@@ -8,7 +8,7 @@ define("DATA_PATH", "/tmp"); //xss记录、封禁ip列表存放目录，只有tm
 define("JS_TEMPLATE_PATH", "template"); //js模板存放目录
 define("MY_JS_PATH", "myjs"); //我的js存放目录
 define("ENCRYPT_ENABLE", true); //是否加密“xss记录，封禁ip列表，js描述”
-define("ENCRYPT_PASS", "bluelotus"); //加密密码
+define("ENCRYPT_PASS", "sky9464"); //加密密码
 define("ENCRYPT_TYPE", "RC4"); //加密方法（AES或RC4）
 define("KEEP_SESSION", true); //是否启用KEEP_SESSION功能，需要外部定时访问keepsession.php
 define("ADMIN_IP_CHECK_ENABLE", true);//是否启用管理员ip认证，启用后，当xss平台发现ip变化，将会踢出管理员要求重新登录，如果发现经常异常退出控制面板，请关闭此项认证
